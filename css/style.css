@@ -3,12 +3,40 @@ body{
     background-color: #1e1d2b;
     color: #fff;
     font-family: 'Poppins', sans-serif;
+    max-width:95%;
+    margin:0 auto;
 }
 
 .bg-dark{
     background-color: #1e1d2b !important;
 }
 
+.nav-bold{
+    font-weight: bold;
+}
+
+.container{
+    padding: 50px;
+}
+
 h1{
     color:#ff702a;
+}
+
+h4{
+    color:#ff702a;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.btn{
+    border: 0px;
+    border-radius: 0px;
+    background-color: #ff702a;
+}
+
+.col{
+    padding: 20px;
 }
