@@ -70,4 +70,18 @@ h4{
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: var(--bs-navbar-active-color);
     border:solid 2px #ff702a;
+    padding: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .navbar-collapse {
+        text-align: center;
+        background-color: #2c2b47;
+      }   
+  }
+  
+  .navbar-toggler {
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: rgba(255, 112, 42, 0.55);
   }
