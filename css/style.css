@@ -37,6 +37,37 @@ h4{
     background-color: #ff702a;
 }
 
+.btn-primary{
+    --bs-btn-hover-bg: #ff9e6e;
+}
+
+
 .col{
     padding: 20px;
 }
+
+.container-elemento{
+    background-color: #ffefe8;
+    color:#000;
+    margin:10px
+}
+
+.text-muted {
+    color: #fff !important;
+  }
+
+.linea {
+  border-top: 2px solid #ff702a;
+  max-width: 50px;
+  margin-bottom: 20px;
+}
+
+.precio{
+    color:#ff702a;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--bs-navbar-active-color);
+    border:solid 2px #ff702a;
+  }
