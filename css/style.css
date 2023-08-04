@@ -113,6 +113,7 @@ ul{
     padding: 10px;
     margin-right: auto;
     margin-left: auto;
+    width: 100%;
 }
 
 
@@ -150,6 +151,14 @@ ul{
     margin: 10px;
 }
 
+.sub-contenedor2{
+    flex:1;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffefe8;
+    color: #000;
+}
+
 .contenedor-inv{
     display: flex;
     flex-wrap: wrap;
@@ -157,6 +166,7 @@ ul{
     padding: 10px;
     margin-right: auto;
     margin-left: auto;
+    width: 100%;
 }
 
 
